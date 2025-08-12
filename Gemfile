@@ -21,6 +21,8 @@ group :jekyll_plugins do
     gem 'unicode_utils'
     gem 'webrick'
     gem 'bigdecimal', '3.1.9'
+    gem 'wdm', '>= 0.1.0' if Gem.win_platform?
+
 
 end
 group :other_plugins do
